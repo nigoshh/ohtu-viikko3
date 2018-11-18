@@ -1,0 +1,3 @@
+paste into https://yuml.me/diagram/nofunky/class/draw
+
+[AuthenticationService], [<<IO>>], [ConsoleIO], [StubIO], [User], [<<UserDao>>], [InMemoryUserDao], [AuthenticationService]*-1[<<UserDao>>], [AuthenticationService]uses -.->[User], [<<IO>>]^-.-[ConsoleIO], [<<IO>>]^-.-[StubIO], [<<UserDao>>]*-*[User], [<<UserDao>>]^-.-[InMemoryUserDao]
